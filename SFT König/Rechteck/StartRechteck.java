@@ -13,7 +13,7 @@ class StartRechteck {
         double b = input.nextDouble();
         rechteck.setBreite(b);
 
-        System.out.print("\033[H\033[2J"); 
+        System.out.print("\033\143"); 
 
         System.out.println("L\u00e4nge: " + l + " cm");
         System.out.println("Breite: " + b + " cm");
