@@ -1,6 +1,5 @@
 class Person{
     private String name;
-    private String vorname;
 
     public void setName(String n){
         name = n;

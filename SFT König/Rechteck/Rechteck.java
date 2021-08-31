@@ -13,5 +13,6 @@ class Rechteck {
 
     public Double rechneFlaeche(){
         flaeche = laenge * breite;
+        return flaeche;
     }
 }
