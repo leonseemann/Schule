@@ -1,7 +1,7 @@
 class Rechteck {
-    private Double breite;
-    private Double laenge;
-    private Double flaeche;
+    private double laenge;
+    private double breite;
+    private double flaeche;
 
     public void setLaenge(double l){
         laenge = l;
@@ -11,7 +11,7 @@ class Rechteck {
         breite = b; 
     }
 
-    public Double rechneFlaeche(){
+    public double rechneFlaeche(){
         flaeche = laenge * breite;
         return flaeche;
     }
