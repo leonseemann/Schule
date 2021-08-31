@@ -1,4 +1,4 @@
-class Start {
+class StartRechteck {
     public static void main(String[]arg){
         Rechteck rechteck = new Rechteck();
         rechteck.setLaenge(3.2);
