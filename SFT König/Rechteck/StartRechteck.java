@@ -1,8 +1,20 @@
+import java.util.Scanner;
+
 class StartRechteck {
     public static void main(String[]arg){
+        Scanner myObj = new Scanner(System.in);
         Rechteck rechteck = new Rechteck();
-        rechteck.setLaenge(3.2);
-        rechteck.setBreite(1.3);
-        System.out.println(rechteck.rechneFlaeche());
+
+        System.out.println("Eingabe Laenge: ");
+        double l = myObj.nextDouble();
+        rechteck.setLaenge(l);
+
+        System.out.println("Eingabe Breite: ");
+        double b = myObj.nextDouble();
+        rechteck.setBreite(b);
+
+        System.out.println("Länge: " + l);
+        System.out.println("Breite: " + b);
+        System.out.println("Fläche: " + rechteck.rechneFlaeche());
     }
 }
