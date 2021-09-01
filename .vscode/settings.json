@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "SFT König/Rechteck",
         "SFT König/Person",
-        "SFT König/Rechteck"
+        "SFT König/RechteckP"
     ]
 }

@@ -3,15 +3,15 @@ class Rechteck {
     private double breite;
     private double flaeche;
 
-    public void setLaenge(double l){
+    public void setLaenge(double l) {
         laenge = l;
     }
 
-    public void setBreite(double b){
-        breite = b; 
+    public void setBreite(double b) {
+        breite = b;
     }
 
-    public double rechneFlaeche(){
+    public double rechneFlaeche() {
         flaeche = laenge * breite;
         return flaeche;
     }
