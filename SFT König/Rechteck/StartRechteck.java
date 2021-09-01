@@ -20,3 +20,5 @@ class StartRechteck {
         System.out.println("Fl\u00e4che: " + rechteck.rechneFlaeche() + " cm^2");
     }
 }
+
+// test
