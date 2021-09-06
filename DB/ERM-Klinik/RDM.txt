@@ -1,0 +1,11 @@
+Mitarbeiter(PersNr[PK], Nachname, Vorname, GebDatum)
+
+OTA(PersNr.[FK], Einsatzgebiet)
+
+Arzt(PersNr[FK], Titel, Psition, Fachgebiet)
+
+Operation(OpID[PK], Zeit, Datum, Dauer, PNr[FK], PersNr[FK], PersNr[FK]
+
+OpOTA(OpID[FK], PersNr[FK])
+
+Patient(PNr[PK], Nachname, Vorname, OpGrund, GebDatum)
