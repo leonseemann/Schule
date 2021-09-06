@@ -1,0 +1,8 @@
+Produkte(PNr[PK], Bezeichnung, Gebindemasse, Kakaogehalt)
+Tafeln(PNr[FK], Form)
+Pralinen(PNr[FK], Anzahl)
+Boxen(PNr[FK], Material)
+Chargen(CNr[PK], Herstelldatum, Chargenmenge, PNr[FK], PSNr[FK])
+Produktionsstätte(PSNr[PK], Bezeichnung)
+Abteilung(ANr[PK], Bezeichnung, PSNr[FK], MNr[FK])
+Mitarbeiter(MNr[PK], Nachname, Vorname, ANr[FK])
