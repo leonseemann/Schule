@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 div {
@@ -13,7 +12,7 @@ div {
 }
 
 #b1 {
-    width: 100%;
+    width: auto;
 }
 
 #b2 {
@@ -23,8 +22,8 @@ div {
 
 #p {
     float: right;
-    width: 350px;
-    height: 500px;
+    width: auto;
+    height: auto;
 }
 
 #b3 {
