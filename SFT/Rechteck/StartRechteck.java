@@ -1,5 +1,3 @@
-package Rechteck;
-
 import java.util.Scanner;
 
 class StartRechteck {
@@ -14,6 +12,8 @@ class StartRechteck {
         System.out.println("Eingabe Breite(cm): ");
         double b = input.nextDouble();
         rechteck.setBreite(b);
+
+        input.close();
 
         System.out.print("\033\143");
 

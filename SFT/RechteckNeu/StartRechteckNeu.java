@@ -10,6 +10,8 @@ class StartRechteckNeu {
         System.out.println("Eingabe Breite(cm): ");
         double b = input.nextDouble();
 
+        input.close();
+
         RechteckNeu rechteck = new RechteckNeu(l, b);
         
         System.out.print("\033\143");
