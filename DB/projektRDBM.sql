@@ -2,63 +2,64 @@
 
 
 
-drop database projekt;
+DROP DATABASE projekt;
 
-create database if not exists projekt;
+CREATE DATABASE IF NOT EXISTS projekt;
 
-use projekt;
+USE projekt;
 
 -- Abteilung(!Anr, Name)
-create table abteilung(
-    ANr int,
-    Name varchar(60) not null,
+CREATE TABLE abteilung(
+    ANr INT,
+    Name VARCHAR(60) NOT NULL,
 
-    primary key(ANr)
+    PRIMARY KEY(ANr)
 );
 
 -- Kunde(!Knr, Name, Vorname, kunde_seit,gebdatum,PLZ, Ort, Str., HNr)
-create table kunde(
+CREATE TABLE kunde(
     KNr INT,
-    Name varchar(60) not null,
-    Vorname varchar(60) not null,
-    kunde_seit date not null,
-    gebdatum date not null,
-    PLZ varchar(6) not null,
-    Ort varchar(60) not null,
-    Str varchar(60) not null,
-    HNr varchar(5) not null,
+    Name VARCHAR(60) NOT NULL,
+    Vorname VARCHAR(60) NOT NULL,
+    kunde_seit date NOT NULL,
+    gebdatum date NOT NULL,
+    PLZ VARCHAR(6) NOT NULL,
+    Ort VARCHAR(60) NOT NULL,
+    Str VARCHAR(60) NOT NULL,
+    HNr VARCHAR(5) NOT NULL,
 
-    primary key(KNr)
+    PRIMARY KEY(KNr)
 );
 
 -- Mitarbeiter(!MNr,Name,Tel,[anr],position,[VMnr])
-create table mitarbeiter(
-    MNr int,
-    Name varchar(60) not null,
-    tel varchar(20) not null,
-    ANr int,
-    position varchar (30) not null,
+CREATE TABLE mitarbeiter(
+    MNr INT,
+    Name VARCHAR(60) NOT NULL,
+    tel VARCHAR(20) NOT NULL,
+    ANr INT,
+    position VARCHAR (30) NOT NULL,
 
-    primary key(MNr),
+    PRIMARY KEY(MNr),
     FOREIGN KEY(ANr) REFERENCES abteilung(ANr)
 );
 
 -- Projekt(!PNr, PBez,[knr])
-create table projekt(
-    PNr int,
-    PBez varchar(100),
-    KNr int,
+CREATE TABLE projekt(
+    PNr INT,
+    PBez VARCHAR(100),
+    KNr INT,
 
-    primary key(PNr),
+    PRIMARY KEY(PNr),
     FOREIGN KEY(KNr) REFERENCES kunde(KNr)
 );
 
 -- MitProj([!MNr],[!PNr], wochenstunden)
-create table MitProj(
-    MNr int,
-    PNr int,
+CREATE TABLE MitProj(
+    MNr INT,
+    PNr INT,
     wochenstunden time,
 
     FOREIGN KEY(MNr) REFERENCES mitarbeiter(MNr),
     FOREIGN KEY(PNr) REFERENCES projekt(PNr)
 )
+
