@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+  border: 1px solid black;
+  width: 200px;
+  height: 150px;
+  margin: 2%;
+}
+
+#b1 {
+    float: left;
+}
+
+#b2 {
+    float: right;
+}
+
+#b3 {
+    clear: both;
+    width: auto;
+}
+
+#b4 {
+    float: left;
+    width: 55%;
+}
+
+#b5 {
+    clear: bottom;
+    float: right;
+    width: 35%;
+    margin: 2%;
+}
+
+#b6 {
+    clear: both;
+    width: auto;
+    height: auto;
+}
