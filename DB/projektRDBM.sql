@@ -2,7 +2,7 @@
 
 
 
-
+drop database projekt;
 
 create database if not exists projekt;
 
@@ -49,7 +49,7 @@ create table projekt(
     PBez varchar(100),
     KNr int,
 
-    primary key(PNr)
+    primary key(PNr),
     FOREIGN KEY(KNr) REFERENCES kunde(KNr)
 );
 
