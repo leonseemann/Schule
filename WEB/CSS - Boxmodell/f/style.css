@@ -1,0 +1,180 @@
+div {
+  border: 1px solid black;
+  width: 200px;
+  height: 150px;
+  margin: 20px;
+  padding: 5px;
+}
+
+/* Beispiel */
+
+/* #b1{
+    float: left;
+}
+
+#b2{
+    float: right;
+}
+
+#b3{
+    clear: both;
+    float: left;
+}
+
+#b4{
+    float: right;
+} */
+
+
+
+/* Aufgabe a */
+
+/* #b1 {
+    float: left;
+}
+
+#b2 {
+    float: right;
+}
+
+#b3 {
+    clear: both;
+}
+
+#b4 {
+    clear: both;
+} */
+
+
+
+/* Aufgabe b */
+
+/* #b1 {
+    float: left;
+}
+
+#b2 {
+    clear: both;
+    float: left;
+}
+
+#b3 {
+    clear: both;
+    float: left;
+}
+
+#b4 {
+    float: left;
+}
+
+#b5 {
+    clear: both;
+    float: right;
+} */
+
+
+/* Aufgabe c */
+
+/* #b1 {
+    float: left;
+}
+
+#b2 {
+    clear: both;
+    float: right;
+}
+
+#b3 {
+    float: right;
+}
+
+#b4 {
+    float: left;
+}
+
+#b5 {
+    clear: both;
+    float: right;
+} */
+
+
+
+/* Aufgabe d */
+
+/* #b1 {
+    float: left;
+}
+
+#b2 {
+    float: left;
+    margin-left: 25%
+}
+
+#b3 {
+    clear: both;
+    float: left;
+    margin-left: 20%
+}
+
+#b4 {
+    float: right;
+}
+
+#b5 {
+    clear: both;
+    float: left;
+    margin-left: 20%;
+} */
+
+/* Aufgabe e */
+
+#b1 {
+    float: left;
+}
+
+#b2 {
+    clear: both;
+    float: right;
+}
+
+#b3 {
+    float: right;
+}
+
+#b4 {
+    float: left;
+}
+
+#b5 {
+    clear: both;
+    float: right;
+} */
+
+
+
+/* Aufgabe d */
+
+#b1 {
+    float: left;
+}
+
+#b2 {
+    float: left;
+    margin-left: 25%
+}
+
+#b3 {
+    clear: both;
+    float: left;
+    margin-left: 20%
+}
+
+#b4 {
+    float: right;
+}
+
+#b5 {
+    clear: both;
+    float: left;
+    margin-left: 20%;
+}

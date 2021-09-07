@@ -1,0 +1,31 @@
+div {
+  border: 1px solid black;
+  width: 200px;
+  height: 150px;
+  margin: 20px;
+  padding: 5px;
+}
+#b1 {
+    float: left;
+}
+
+#b2 {
+    float: left;
+    margin-left: 25%;
+}
+
+#b3 {
+    clear: both;
+    float: left;
+    margin-left: 20%;
+}
+
+#b4 {
+    float: right;
+}
+
+#b5 {
+    clear: both;
+    float: left;
+    margin-left: 20%;
+}
