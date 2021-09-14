@@ -4,9 +4,9 @@ class Datum {
     private int jahr;
 
     public void ausgabeDatum() {
-        tag = 1;
-        monat = 1;
-        jahr = 1;
+        this.tag = 1;
+        this.monat = 1;
+        this.jahr = 1;
 
         System.out.println("`D`: " + tag + "." + monat + "." + jahr);
         System.out.println("`E`: " + jahr + "-" + monat + "-" + tag);
@@ -14,9 +14,9 @@ class Datum {
     }
 
     public void ausgabeDatum(int t, int m, int j) {
-        tag = t;
-        monat = m;
-        jahr = j;
+        this.tag = t;
+        this.monat = m;
+        this.jahr = j;
 
         System.out.println("`D`: " + tag + "." + monat + "." + jahr);
         System.out.println("`E`: " + jahr + "-" + monat + "-" + tag);
