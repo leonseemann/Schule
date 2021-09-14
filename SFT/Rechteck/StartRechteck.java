@@ -1,3 +1,5 @@
+package Rechteck;
+
 import java.util.Scanner;
 
 class StartRechteck {

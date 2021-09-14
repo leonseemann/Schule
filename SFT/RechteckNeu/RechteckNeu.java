@@ -1,3 +1,5 @@
+package RechteckNeu;
+
 class RechteckNeu {
     private double laenge;
     private double breite;

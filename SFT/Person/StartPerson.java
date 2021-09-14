@@ -1,3 +1,5 @@
+package Person;
+
 class StartPerson {
     public static void main(String[]arg){
         Person peter = new Person();
