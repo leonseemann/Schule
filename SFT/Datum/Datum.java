@@ -10,17 +10,17 @@ class Datum {
 
         System.out.println("`D`: " + tag + "." + monat + "." + jahr);
         System.out.println("`E`: " + jahr + "-" + monat + "-" + tag);
-        System.out.println("`A`: " + tag + "-" + monat + "-" + tag);
+        System.out.println("`A`: " + tag + "-" + monat + "-" + jahr);
     }
 
-    public void ausgabeDatum(char t, char m, char j) {
+    public void ausgabeDatum(int t, int m, int j) {
         tag = t;
         monat = m;
         jahr = j;
 
         System.out.println("`D`: " + tag + "." + monat + "." + jahr);
         System.out.println("`E`: " + jahr + "-" + monat + "-" + tag);
-        System.out.println("`A` :" + tag + "-" + monat + "-" + tag);
+        System.out.println("`A`: " + tag + "-" + monat + "-" + jahr);
     }
 
     public boolean istSchaltjahr() {
