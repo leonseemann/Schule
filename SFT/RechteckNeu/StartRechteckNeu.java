@@ -1,5 +1,3 @@
-package RechteckNeu;
-
 import java.util.Scanner;
 
 class StartRechteckNeu {
