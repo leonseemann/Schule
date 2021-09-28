@@ -27,4 +27,16 @@ class Bruch {
     public void ausgabeBruch() {
         System.out.println(zaehler + "/" + nenner);
     }
+
+    public Bruch addition(Bruch) {
+        
+    }
 }
+
+
+// Bruch a,b,c
+
+// c = a.addition(b);
+
+//a.ausgabeBruch();
+//system.out.println(a.ausgabeDezimal());
