@@ -20,7 +20,7 @@ class Bruch {
     }
 
     public double ausgabeDezimal() {
-        double dezimal = zaehler / nenner;
+        double dezimal = (double)zaehler / (double)nenner;
         return dezimal;
     }
 
