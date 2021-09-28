@@ -2,7 +2,8 @@
     "java.project.sourcePaths": [
         "SFT/RechteckNeu",
         "SFT/Rechteck",
+        "SFT/Datum",
         "SFT König/Person",
-        "SFT/Datum"
+        "SFT/Bruch"
     ]
 }
