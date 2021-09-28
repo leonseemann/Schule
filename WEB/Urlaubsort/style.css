@@ -1,51 +1,68 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 .max-width {
-    max-width: 1300px;
-    padding: 0 80px;
-    margin: auto;
-  }
-
-.navbar {
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    padding: 30px 0;
-    font-family: "Ubuntu", sans-serif;
-    transition: all 0.3s ease;
-  }
-
-  .navbar .max-width {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .navbar .logo img {
-    height: 50px;
-  }
-
-  .navbar .menu li {
-    list-style: none;
-    display: inline-block;
-    font-size: 18px;
-    margin-left: 15px;
-  }
-
-  .navbar .menu li a {
-    color: black;
-    font-size: 18px;
-    font-weight: 500;
-    margin-left: 25px;
-    transition: color 0.3s ease;
-  }
-
-.sw {
-    padding-top: 100px;
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
 }
 
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 30px 0;
+  font-family: "Ubuntu", sans-serif;
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0),
+    rgba(255, 0, 0, 1)
+  );
+}
+
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo img {
+  height: 50px;
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.navbar .menu li a {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+
+.sw {
+  padding-top: 100px;
+}
+
+.sw .poland .bilder {
+  width: 48%;
+  float: left;
+}
+
+.sw .poland .text {
+  width: 48%;
+  float: right;
+}
+
+.sw .poland .bilder #polen {
+  width: 100%;
+}
