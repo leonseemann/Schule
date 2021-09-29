@@ -66,3 +66,21 @@
 .sw .poland .bilder #polen {
   width: 100%;
 }
+
+.sw .tworkau .bilder {
+  width: 48%;
+  float: right;
+}
+
+.sw .tworkau .text {
+  width: 48%;
+  float: left;
+}
+
+.sw .tworkau .bilder #tworkau_bild {
+  width: 100%;
+}
+
+.br {
+  clear: both;
+}
