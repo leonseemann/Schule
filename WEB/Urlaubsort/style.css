@@ -169,3 +169,14 @@
 .sw .see .bilder #see_bild {
   border-radius: 5%;
 }
+
+/* footer */
+
+footer {
+  background-color: lightgrey;
+  width: 100%;
+}
+
+footer a{
+  list-style: none;
+}
