@@ -49,24 +49,68 @@
   transition: color 0.3s ease;
 }
 
+.dropbtn {
+  background: none;
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  background: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: none;
+}
+
+/* alles */
+
 .sw {
   padding-top: 100px;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 /* Polen */
 
-.sw .poland .bilder {
+.sw .polen .bilder {
   width: 48%;
   float: left;
 }
 
-.sw .poland .text {
+.sw .polen .text {
   width: 48%;
   float: right;
 }
 
-.sw .poland .bilder #polen {
-  width: 100%;
+.sw .polen .text ul {
+  list-style: none;
 }
 
 /* Tworkau */
@@ -81,10 +125,6 @@
   float: left;
 }
 
-.sw .tworkau .bilder #tworkau_bild {
-  width: 100%;
-}
-
 /* Schloss */
 
 .sw .schloss .bilder {
@@ -97,57 +137,16 @@
   float: right;
 }
 
-.sw .schloss .bilder #tworkau_bild {
-  width: 100%;
-}
-
+/* break */
 
 .br {
   clear: both;
 }
 
-/* Style The Dropdown Button */
-.dropbtn {
-  background: none;
-  color: black;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
+/* bilder */
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-  background: none;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: whitesmoke;
-  min-width: 160px;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  text-decoration: none;
-  display: block;
-  background: none;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: none;
+.sw .polen .bilder #polen_bild,
+.sw .tworkau .bilder #tworkau_bild,
+.sw .schloss .bilder #schloss_bild {
+  width: 100%;
 }
