@@ -12,7 +12,7 @@
 }
 
 .navbar {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   z-index: 999;
   padding: 30px 0;
@@ -45,13 +45,15 @@
   color: black;
   font-size: 18px;
   font-weight: 500;
-  margin-left: 25px;
+  /* margin-left: 25px; */
   transition: color 0.3s ease;
 }
 
 .sw {
   padding-top: 100px;
 }
+
+/* Polen */
 
 .sw .poland .bilder {
   width: 48%;
@@ -67,6 +69,8 @@
   width: 100%;
 }
 
+/* Tworkau */
+
 .sw .tworkau .bilder {
   width: 48%;
   float: right;
@@ -81,6 +85,69 @@
   width: 100%;
 }
 
+/* Schloss */
+
+.sw .schloss .bilder {
+  width: 48%;
+  float: left;
+}
+
+.sw .schloss .text {
+  width: 48%;
+  float: right;
+}
+
+.sw .schloss .bilder #tworkau_bild {
+  width: 100%;
+}
+
+
 .br {
   clear: both;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background: none;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background: none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  background: none;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: none;
 }
