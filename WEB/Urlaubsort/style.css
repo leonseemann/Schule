@@ -137,16 +137,35 @@
   float: right;
 }
 
+/* See */
+
+.sw .see .bilder {
+  width: 48%;
+  float: right;
+}
+
+.sw .see .text {
+  width: 48%;
+  float: left;
+}
+
 /* break */
 
 .br {
   clear: both;
+  padding: 2%;
 }
 
 /* bilder */
 
 .sw .polen .bilder #polen_bild,
 .sw .tworkau .bilder #tworkau_bild,
-.sw .schloss .bilder #schloss_bild {
+.sw .schloss .bilder #schloss_bild,
+.sw .see .bilder #see_bild {
   width: 100%;
+}
+
+.sw .schloss .bilder #schloss_bild,
+.sw .see .bilder #see_bild {
+  border-radius: 5%;
 }
