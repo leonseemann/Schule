@@ -1,0 +1,18 @@
+++#################8++####datei.txt####8++#################8++1++<Markus<++<Petrus<++100.12++12++8++2++<Harkus<++<Zetrus<++120.12++123++8++3++<Parkus<++<Getus<++13.12++124++8
+
+
+
+LOAD DATA INFILE 'mitarbeiter.txt'
+    IGNORE
+    INTO TABLE mitarbeiter
+    FIELDS 
+        TERMINATED BY '#'
+        OPTIONALLY BY '//'
+    ESCAPE BY '8'
+    IGNORE 2 LINES
+
+
+Die Erste LINE wird nicht erkannt,
+die LINES haben kein erkennbares ende,
+Jede LINE beginnt mit was anderen das geht nicht
+da das nicht erkannt wird.
