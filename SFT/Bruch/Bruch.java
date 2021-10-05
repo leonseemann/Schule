@@ -20,7 +20,7 @@ class Bruch {
     }
 
     public double ausgabeDezimal() {
-        double dezimal = (double)zaehler / (double)nenner;
+        double dezimal = (double) zaehler / (double) nenner;
         return dezimal;
     }
 
@@ -28,15 +28,16 @@ class Bruch {
         System.out.println(zaehler + "/" + nenner);
     }
 
-    public Bruch addition(Bruch) {
-        
+    public Bruch addition(Bruch b) {
+        Bruch ausgabeB = new Bruch();
+
+        int z = this.zaehler * b.zaehler + b.nenner * this.nenner;
+
+        int n = this.nenner * b.nenner;
+
+        ausgabeB.zaehler = z;
+        ausgabeB.nenner = n;
+
+        return ausgabeB;
     }
 }
-
-
-// Bruch a,b,c
-
-// c = a.addition(b);
-
-//a.ausgabeBruch();
-//system.out.println(a.ausgabeDezimal());
