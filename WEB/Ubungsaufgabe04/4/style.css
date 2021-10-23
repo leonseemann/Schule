@@ -1,0 +1,40 @@
+#box0 {
+  width: fit-content;
+  height: fit-content;
+  border: 2px solid orange;
+  padding-bottom: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#box1 {
+  border: 1px solid black;
+  width: fit-content;
+  float: left;
+  clear: right;
+}
+
+#box2 {
+  border: 1px solid black;
+  width: fit-content;
+  float: left;
+  margin-left: 15px;
+}
+
+.links {
+  float: left;
+  margin-left: 20px;
+}
+
+#liste0 {
+  float: right;
+}
+
+#liste1 {
+  float: left;
+  margin: 0;
+}
+
+.margin-list {
+  margin-top: 30px;
+}
