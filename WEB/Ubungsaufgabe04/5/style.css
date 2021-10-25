@@ -1,24 +1,15 @@
-#box1:hover {
-    background-color: yellow;
-    border: 2px dotted black;
-}
-
-#box2:hover {
-    background-color: yellow;
-    border: 2px dotted black;
-}
-
-#box3:hover {
-    background-color: yellow;
-    border: 2px dotted black;
-}
-
 .box {
     display: flex;
 	border: 2px solid black;
     width: 100px;
     background-color: lightgreen;
     justify-content: center;
+    margin-bottom: 0.4px;
+}
+
+.box:hover {
+    background-color: yellow;
+    border: 2px dotted black;
 }
 
 .box a {
