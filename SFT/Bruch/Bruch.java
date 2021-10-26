@@ -29,11 +29,7 @@ class Bruch {
     }
 
     public Bruch addition(Bruch b) {
-        Bruch ausgabeB = new Bruch();
-
-        ausgabeB.zaehler = this.zaehler * b.zaehler + b.nenner * this.nenner;
-
-        ausgabeB.nenner = this.nenner * b.nenner;
+        Bruch ausgabeB = new Bruch(this.zaehler * b.nenner +  b.zaehler * this.nenner, this.nenner * b.nenner);
 
         return ausgabeB;
     }

@@ -7,7 +7,7 @@ class RechteckNeu {
         breite = 1;
     }
 
-    public RechteckNeu(double laenge, double breite){
+    public RechteckNeu(double laenge, double breite) {
         this.laenge = laenge;
         this.breite = breite;
     }

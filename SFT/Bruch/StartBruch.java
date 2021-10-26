@@ -9,5 +9,15 @@ class StartBruch {
         Bruch brech = new Bruch(4, 5);
         System.out.println(brech.ausgabeDezimal());
         brech.ausgabeBruch();
+
+        System.out.println("--------------------------------------------------------");
+
+        Bruch g = new Bruch(4, 7);
+        System.out.println(brech.ausgabeDezimal());
+        brech.ausgabeBruch();
+
+        System.out.println("--------------------------------------------------------");
+
+        g = bruch.addition(brech);
     }
 }
