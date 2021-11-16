@@ -1,0 +1,36 @@
+body {
+    width: 800px;
+}
+
+div {
+    border: 1px solid black;
+}
+
+#box1 {
+    width: 400px;
+    height: 200px;
+}
+
+#box2 {
+    /* padding: 20px; */
+    width: 150px;
+    height: 100px;
+    float: right;
+    margin: 10px;
+
+}
+
+#box3 {
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 400px;
+    height: 200px;
+}
+
+#box4 {
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-top: 90px;
+    margin-left: 10px;
+}

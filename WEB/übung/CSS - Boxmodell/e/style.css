@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+  border: 1px solid black;
+  width: 200px;
+  height: 150px;
+  margin: 20px;
+  padding: 5px;
+}
+
+#b1 {
+    width: auto;
+}
+
+#b2 {
+    float: left;
+    height: 500px;
+}
+
+#p {
+    float: right;
+    width: auto;
+    height: auto;
+}
+
+#b3 {
+    width: 300px;
+}
+
+#b4 {
+    width: 300px;
+    height: 250px;
+}

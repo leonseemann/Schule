@@ -1,0 +1,11 @@
+div p {
+    color: blue;
+}
+
+h1 p#div {
+    display: none;
+}
+
+div a:hover #ttip {
+    display: block;
+}

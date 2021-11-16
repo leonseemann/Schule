@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+.navbar {
+  /* position: fixed; */
+  width: 100%;
+  z-index: 999;
+  padding: 30px 0;
+  font-family: "Ubuntu", sans-serif;
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0),
+    rgba(255, 0, 0, 1)
+  );
+}
+
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo img {
+  height: 50px;
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.navbar .menu li a {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  /* margin-left: 25px; */
+  transition: color 0.3s ease;
+}
+
+.dropbtn {
+  background: none;
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  background: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: none;
+}
+
+/* alles */
+
+.sw {
+  padding-top: 100px;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+/* Polen */
+
+.sw .polen .bilder {
+  width: 48%;
+  float: left;
+}
+
+.sw .polen .text {
+  width: 48%;
+  float: right;
+}
+
+.sw .polen .text ul {
+  list-style: none;
+}
+
+/* Tworkau */
+
+.sw .tworkau .bilder {
+  width: 48%;
+  float: right;
+}
+
+.sw .tworkau .text {
+  width: 48%;
+  float: left;
+}
+
+/* Schloss */
+
+.sw .schloss .bilder {
+  width: 48%;
+  float: left;
+}
+
+.sw .schloss .text {
+  width: 48%;
+  float: right;
+}
+
+/* See */
+
+.sw .see .bilder {
+  width: 48%;
+  float: right;
+}
+
+.sw .see .text {
+  width: 48%;
+  float: left;
+}
+
+/* break */
+
+.br {
+  clear: both;
+  padding: 2%;
+}
+
+/* bilder */
+
+.sw .polen .bilder #polen_bild,
+.sw .tworkau .bilder #tworkau_bild,
+.sw .schloss .bilder #schloss_bild,
+.sw .see .bilder #see_bild {
+  width: 100%;
+}
+
+.sw .schloss .bilder #schloss_bild,
+.sw .see .bilder #see_bild {
+  border-radius: 5%;
+}
+
+/* footer */
+
+footer {
+  background-color: lightgrey;
+  width: 100%;
+}
+
+footer a {
+  list-style: none;
+}

@@ -1,0 +1,3 @@
+a) alle p die in einem div sind wird die Text Farbe blau.
+b) alle p mit der id div in einem h1 wird display auf none gesetzt .
+c) die id ttip in einem a:hover die in einem div wird der display auf block gesetzt.

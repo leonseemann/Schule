@@ -1,0 +1,30 @@
+div {
+  border: 1px solid black;
+}
+
+#box1 {
+  clear: both;
+  width: 25%;
+  height: 100px;
+}
+
+#box2 {
+  float: right;
+  width: 300px;
+  height: 300px;
+}
+
+#box3 {
+  float: right;
+  width: 50%;
+  height: 75px;
+  margin-top: 200px;
+  margin-right: 30px;
+}
+
+#box4 {
+  clear: both;
+  width: 25%;
+  height: 100px;
+  margin-left: 25%;
+}

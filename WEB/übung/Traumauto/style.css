@@ -1,0 +1,28 @@
+.titel {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.bilder .titel{
+    margin-bottom: 0;
+}
+
+.links {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.links:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+
+.tipp {
+    font-size: 10px;
+    margin-top: 0;
+}
+
+.size{
+    width: 300px;
+    height: auto;
+}
