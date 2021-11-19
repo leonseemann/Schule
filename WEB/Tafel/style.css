@@ -1,24 +1,37 @@
 body {
 	text-align: center;
+	margin: 0;
+	height: 100%;
 }
 
 #seite {
 	width: 960px;
 	margin: 0 auto;
+	min-height: 100%;
+  	margin-bottom: -50px;
 }
 
 div {
 	border: 1px solid black;
 }
 
-header div#logo-div {
-	text-align: left;
-	width: 49%;
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
-header a img#logo {
+header a img {
 	width: 50px;
-	height: auto;
+	height: 50px;
+}
+
+header a {
+	margin: 10px 0;
+	display: flex;
+}
+
+header p#text {
 }
 
 div ul#menu-ul {
@@ -33,11 +46,30 @@ div ul#menu-ul li.menu-li {
 }
 
 div#news {
-    float: left;
-    width: 100px;
-    height: 500px;
+	float: left;
+	width: 100px;
+	height: 500px;
 }
 
-div#news div.news{
-	margin: 50px 0;
+div#news div.news {
+	margin: 40px 0;
 }
+
+div img#portrait {
+	margin: 5px;
+	height: 300px;
+	float: right;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 60px; /* Height of the footer */
+	line-height: 60px;
+	background: #6cf;
+	text-justify: center;
+}
+
+
