@@ -1,7 +1,3 @@
-drop database if exists loaddata2;
-create databse loaddata2;
-use loaddata2;
-
 CREATE TABLE geraete(
     gnr int,
     gtyp varchar(60),
