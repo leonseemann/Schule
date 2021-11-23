@@ -1,0 +1,80 @@
+body {
+	margin: 1;
+	padding: 0;
+}
+
+#br {
+    margin: 0 10px;
+}
+
+/* ------------------------------menu--------------- */
+
+#menu-div {
+	border: 1px solid black;
+	width: 120px;
+}
+
+#menu-ul {
+	margin: 0;
+	padding: 0;
+}
+
+.menu-li {
+	list-style: none;
+	width: 100px;
+	height: 50px;
+}
+
+.menu-a {
+	display: block;
+	text-decoration: none;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.menu-a:visited {
+	color: red;
+}
+
+.menu-a:hover {
+    padding-left: 20px;
+}
+
+/* ---------2------ */
+
+
+#menu2-div {
+	border: 1px solid black;
+	width: fit-content;
+}
+
+#menu2-ul {
+	margin: 0;
+	padding: 0;
+}
+
+.menu2-li {
+    display: inline-block;
+	list-style: none;
+	width: 100px;
+	height: 50px;
+}
+
+.menu2-a {
+	display: block;
+	text-decoration: none;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.menu2-a:visited {
+	color: red;
+}
+
+.menu2-a:hover {
+    padding-top: 20px;
+}
