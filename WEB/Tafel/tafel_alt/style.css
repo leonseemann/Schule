@@ -36,7 +36,7 @@ header p#text {
 
 div ul#menu-ul {
 	list-style: none;
-	display: inline;
+	display: inline-block;
 }
 
 div ul#menu-ul li.menu-li {
