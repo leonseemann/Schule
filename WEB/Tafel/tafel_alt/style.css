@@ -1,21 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	text-align: center;
 	margin: 0;
 	padding: 0;
 	height: 100%;
 	width: 100%;
-	background-color: red;
+	background-color: rgb(185, 185, 185);
 }
 
 #seite {
 	width: 960px;
 	margin: 0 auto;
 	min-height: 100%;
+	border-radius: 1em;
 }
 
 div {
-	border: 1px solid black;
-	margin: 2px;
+	/* border: 1px solid black; */
+	/* margin: 2px; */
 	background-color: white;
 }
 
@@ -23,6 +29,8 @@ header {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	background-color: #b0e3f8;
+	border-radius: 1em;
 }
 
 header a img {
@@ -37,6 +45,22 @@ header a {
 
 header p#text {
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav {
+	border-bottom: 2px solid black;
+}
+
+#main-text {
+	text-align: justify;
+}
+
+#main-title {
+	font-size: large;
+	font-weight: bold;
+	text-decoration: underline;
+	/* padding-top: 10px; */
+	padding-bottom: 10px;
 }
 
 div ul#menu-ul {
@@ -65,6 +89,7 @@ div ul#menu-ul li.menu-li a.menu-li-a {
 div ul#menu-ul li.menu-li a.menu-li-a:hover,
 div ul#menu-ul li.menu-li a.menu-li-a:focus {
 	color: red;
+	font-weight: bolder;
 }
 
 div ul li div {
@@ -75,28 +100,34 @@ div ul li div a {
 	line-height: 30px;
 }
 
-div ul li div a:hover,
-div ul li div a:focus {
-	color: red;
-}
-
-div ul li:hover div {
-	display: block;
-	position: absolute;
-	width: 70px;
-	height: 30px;
-	top: 22px;
-	left: -12.5px;
+#portrait {
+	padding-left: 10px;
 }
 
 div#news {
 	float: left;
-	width: 200px;
-	height: 500px;
+	width: 300px;
+	height: max-content;
+	margin-right: 20px;
 }
 
 div#news div.news {
 	margin: 40px 0;
+	border: 2px solid black;
+	border-radius: 1em;
+}
+
+.news-title {
+	font-size: large;
+	font-weight: bold;
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+
+.news-text {
+	font-size: smaller;
+	text-align: justify;
+	padding: 0 10px;
 }
 
 div img#portrait {
@@ -112,4 +143,8 @@ div img#portrait {
 	height: 60px; /* Height of the footer */
 	line-height: 60px;
 	background: #6cf;
+}
+
+footer {
+	border-top: 2px solid black;
 }
