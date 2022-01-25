@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+}
+
+div {
+    /* border: 1px solid black; */
+}
+
+header {
+    border: 1px solid black;
+    margin-top: 10px;
+    /* width: 100%; */
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+section {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+section#fuenf div{
+    width: 49%;
+}
+
+section#fuenf .gerichtDiv{
+    width: 97%;
+}
+
+.speisen {
+    width: 33%;
+    border: 1px solid black;
+}
+
+.speisen p.Ueberschrift{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    border-bottom: 1px solid black;
+}
+
+.gerichtListe {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 5px 0;
+}
+
+.gerichtDiv {
+    margin: 0 10px 0 10px;
+}
