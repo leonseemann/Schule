@@ -1,19 +1,23 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Comic Sans MS';
 }
 
 body {
     width: 90%;
     margin: auto;
+    background: url(./hintergrund.png);
+    background-size: 100% auto;
 }
 
 div {
     /* border: 1px solid black; */
+    
 }
 
 header {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 10px;
     /* width: 100%; */
     height: 100px;
@@ -21,11 +25,19 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    background-color: hsla(0, 0%, 100%, 0.7);
+    border-radius: 1em;
 }
 
 header img {
     max-width: 90%;
     max-height: 90%;
+    border-radius: 1em;
+}
+
+header p {
+    font-size: 50px;
+    color: red;
 }
 
 section {
@@ -45,7 +57,9 @@ section#fuenf .gerichtDiv{
 
 .speisen {
     width: 33%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    background-color: hsla(0, 0%, 100%, 0.7);
+    border-radius: 1em;
 }
 
 .speisen p.Ueberschrift{
@@ -58,10 +72,16 @@ section#fuenf .gerichtDiv{
 .gerichtListe {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 5px 0 5px 0;
 }
 
 .gerichtDiv {
     margin: 0 10px 0 10px;
+    align-items: center;
+}
+
+.g .gerichtListe {
+    justify-content: space-between;
+    padding: 0 10vh;
 }
