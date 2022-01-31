@@ -1,87 +1,124 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Comic Sans MS';
+	margin: 0;
+	padding: 0;
+	font-family: "Comic Sans MS";
 }
 
 body {
-    width: 90%;
-    margin: auto;
-    background: url(./hintergrund.png);
-    background-size: 100% auto;
+	width: 90%;
+	margin: auto;
+	background: url(./hintergrund.png);
+	background-size: 100% auto;
 }
 
 div {
-    /* border: 1px solid black; */
-    
+	/* border: 1px solid black; */
 }
 
 header {
-    /* border: 1px solid black; */
-    margin-top: 10px;
-    /* width: 100%; */
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: hsla(0, 0%, 100%, 0.7);
-    border-radius: 1em;
+	/* border: 1px solid black; */
+	margin-top: 10px;
+	/* width: 100%; */
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: hsla(0, 0%, 100%, 0.7);
+	border-radius: 1em;
+	box-shadow: inset 5em 1em rgba(158, 158, 158, 0.171);
 }
 
 header img {
-    max-width: 90%;
-    max-height: 90%;
-    border-radius: 1em;
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 1em;
 }
 
 header p {
-    font-size: 50px;
-    color: red;
+	font-size: 50px;
+	color: rgb(70, 70, 70);
 }
 
 section {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    /* width: 100%; */
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	/* width: 100%; */
 }
 
-section#fuenf div{
-    width: 49%;
+section#fuenf div {
+	width: 49%;
 }
 
-section#fuenf .gerichtDiv{
-    width: 97%;
+section#fuenf .gerichtDiv {
+	width: 97%;
 }
 
 .speisen {
-    width: 33%;
-    /* border: 1px solid black; */
-    background-color: hsla(0, 0%, 100%, 0.7);
-    border-radius: 1em;
+	width: 33%;
+	/* border: 1px solid black; */
+	background-color: hsla(0, 0%, 100%, 0.7);
+	border-radius: 1em;
+	box-shadow: inset 5em 1em rgba(158, 158, 158, 0.171);
 }
 
-.speisen p.Ueberschrift{
-    text-align: center;
-    font-weight: bold;
-    font-size: larger;
-    border-bottom: 1px solid black;
+.speisen p.Ueberschrift {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	border-bottom: 1px solid black;
 }
 
 .gerichtListe {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 5px 0 5px 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin: 5px 0 5px 0;
 }
 
 .gerichtDiv {
-    margin: 0 10px 0 10px;
-    align-items: center;
+	margin: 0 10px 0 10px;
+	align-items: center;
+	max-height: 100%;
+	font-size: 25px;
 }
 
 .g .gerichtListe {
-    justify-content: space-between;
-    padding: 0 10vh;
+	justify-content: space-between;
+	padding: 0 10vh;
+}
+
+section#text {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	background-color: hsla(0, 0%, 100%, 0.7);
+	border-radius: 1em;
+	box-shadow: inset 5em 1em rgba(158, 158, 158, 0.171);
+}
+
+section#text p {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+section#bilder {
+	width: 100%;
+}
+
+section#bilder div {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+
+section#bilder div img {
+	display: flex;
+	height: 150px;
+	border: 2px solid hsla(0, 0%, 100%, 0.7);
+	border-radius: 1em;
+	box-shadow: inset 5em 1em rgba(158, 158, 158, 0.171);
 }
